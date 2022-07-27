@@ -1,0 +1,27 @@
+{
+  "name": "node_testing_poc",
+  "version": "1.0.0",
+  "description": "Testing NodeJS Rest API",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19",
+    "sinon": "^14.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --timeout 3000"
+  },
+  "author": "Mohan Kumar K",
+  "license": "ISC"
+}
